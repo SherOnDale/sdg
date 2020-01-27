@@ -23,7 +23,7 @@
           <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM20.586 23.414l-6.586-6.586v-8.828h4v7.172l5.414 5.414-2.829 2.829z"></path>
         </svg>`,
       header: "Open Hours",
-      text: "24 hours a day, 7 days a week"
+      text: "Mon-Fri: 7am - 5pm"
     }
   ];
 </script>
