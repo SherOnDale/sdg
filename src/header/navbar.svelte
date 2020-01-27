@@ -40,7 +40,7 @@
   }
 
   .navbar {
-    padding: 1em;
+    padding: 1.5em;
     display: flex;
     justify-content: space-between;
     max-width: 1200px;

@@ -29,6 +29,10 @@
 </script>
 
 <style>
+  .sub-header {
+    border-bottom: 2px solid var(--light-gray);
+  }
+
   :global(.icon) {
     display: inline-block;
     width: 1.2rem;
@@ -39,12 +43,13 @@
   }
 
   .sub-header__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 1em;
     margin-left: auto;
     height: 60px;
     display: flex;
     justify-content: flex-end;
-    border-bottom: 2px solid var(--light-gray);
   }
 </style>
 
