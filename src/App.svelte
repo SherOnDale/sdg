@@ -5,9 +5,22 @@
 <style>
   :global(:root) {
     --primary-color: #09aeb8;
+    --secondary-color: #ffd763;
+    --gray: #87868a;
+    --light-gray: #f1f1f1;
+  }
+
+  :global(a) {
+    text-decoration: none;
+  }
+
+  :global(a:hover) {
+    text-decoration: none;
   }
   :global(*) {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
 
   :global(html) {
@@ -16,13 +29,7 @@
 
   :global(body) {
     font-family: "Josefin Sans", sans-serif;
-  }
-
-  main {
-    text-align: center;
-    padding: 1em;
-    max-width: 240px;
-    margin: 0 auto;
+    height: 5000px;
   }
 
   h1 {
@@ -30,12 +37,6 @@
     text-transform: uppercase;
     font-size: 4em;
     font-weight: 100;
-  }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
   }
 </style>
 

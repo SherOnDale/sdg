@@ -21,7 +21,7 @@
   }
 
   .sub-header__item--text {
-    color: #87868a;
+    color: var(--gray);
   }
 </style>
 
