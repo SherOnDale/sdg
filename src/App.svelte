@@ -1,5 +1,6 @@
 <script>
   import Header from "./header/header.svelte";
+  import Carousel from "./body/carousel.svelte";
 </script>
 
 <style>
@@ -29,7 +30,6 @@
 
   :global(body) {
     font-family: "Josefin Sans", sans-serif;
-    height: 5000px;
   }
 
   h1 {
@@ -42,4 +42,5 @@
 
 <main>
   <Header />
+  <Carousel />
 </main>

@@ -30,17 +30,18 @@
   .navbar__wrapper {
     width: 100%;
     border-bottom: 2px solid var(--light-gray);
-    background-color: #ffffffaa;
+    background-color: #ffffffdd;
+    position: absolute;
   }
 
   :global(.navbar__wrapper.navbar__wrapper--fixed) {
-    position: fixed;
+    position: fixed !important;
     top: 0;
     background-color: white !important;
   }
 
   .navbar {
-    padding: 1.5em;
+    padding: 1rem;
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
